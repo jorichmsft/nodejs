@@ -1,0 +1,14 @@
+{
+  "name": "httphello",
+  "version": "1.0.0",
+  "description": "basic hello world http server",
+  "main": "httphello.js",
+  "scripts": {
+    "start": "node httphello.js",
+    "test": "start iexplore.exe http://localhost:8080",
+    "server": "node httphello.js",
+    "client": "start iexplore.exe http://localhost:8080"
+  },
+  "author": "jorich<jorich@microsoft.com>",
+  "license": "MIT"
+}
