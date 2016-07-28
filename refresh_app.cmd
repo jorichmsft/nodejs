@@ -7,13 +7,13 @@ rem
 rem Remove the application container if present, even if already running.
 rem
 
-docker rm -f httpclient1
+docker rm -f httphello1
 
 rem
 rem Remove the image if present
 rem
 
-docker rmi httpclient
+docker rmi httphello
 
 rem
 rem Now rebuild the image
