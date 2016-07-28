@@ -4,10 +4,10 @@ rem Refresh the application images and container after update.
 rem
 
 rem
-rem Remove the application container if present
+rem Remove the application container if present, even if already running.
 rem
 
-docker rm httpclient1
+docker rm -f httpclient1
 
 rem
 rem Remove the image if present
