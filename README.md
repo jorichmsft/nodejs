@@ -1,2 +1,4 @@
 # nodejs
-NodeJS samples.
+
+NodeJS application samples for Windows Server Containers.
+
