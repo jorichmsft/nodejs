@@ -30,7 +30,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World from Windows Containers Test Version 4\n');
+  res.end('Hello World from Windows Containers Test Version 3\n');
 });
 
 server.listen(port, hostname, () => {
