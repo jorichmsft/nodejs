@@ -143,7 +143,7 @@ var periodicExecutionResult = function(error, stdout, stderr)
     shellExecCommandLine(g_actionCommandLine, function(error2, stdout2, stderr2) {
 
         if (error2 != null) {
-            console("action command line failed");
+            console.log("action command line failed");
         }
 
         console.log("action command line results:");
