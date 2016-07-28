@@ -1,3 +1,3 @@
 FROM nodejs:onbuild
-EXPORT 8080
+EXPOSE 8080
 
