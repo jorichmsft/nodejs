@@ -1,0 +1,3 @@
+Update this file to generate automatic rebuild.
+
+ - Any file in project will do, but this allows testing without modifying code.
